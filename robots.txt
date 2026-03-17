@@ -1,0 +1,15 @@
+# WHY: Protect prototyping photos from search engine crawlers and AI training scrapers
+User-agent: *
+Disallow: /assets/prototyping/
+
+# Block common AI/scraping bots specifically
+User-agent: GPTBot
+Disallow: /assets/prototyping/
+User-agent: CCBot
+Disallow: /assets/prototyping/
+User-agent: anthropic-ai
+Disallow: /assets/prototyping/
+User-agent: Google-Extended
+Disallow: /assets/prototyping/
+User-agent: img2dataset
+Disallow: /assets/prototyping/
